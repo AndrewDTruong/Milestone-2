@@ -33,7 +33,7 @@ def filename_from_input(prompt):
     if len(alphanumSplit) > 3:
         alphanumSplit = alphanumSplit[:3]
     # Join the words with underscores and return the result.
-    return "images/" + "_".join(alphanumSplit)
+    return "images/" + " ".join(alphanumSplit)
 
 
 # Create an image
